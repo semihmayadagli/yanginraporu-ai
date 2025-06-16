@@ -1,2 +1,2 @@
-# yanginraporu-ai
-AI destekli rapor oluşturma
+# Yangın Raporu AI
+AI destekli yangın denetim ve rapor oluşturma sistemi.
