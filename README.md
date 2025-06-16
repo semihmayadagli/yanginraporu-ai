@@ -1,2 +1,2 @@
 # Yangın Raporu AI
-AI destekli yangın denetim ve rapor oluşturma sistemi.
+Bu proje yangın güvenliği yorumlarını AI destekli olarak oluşturur.
