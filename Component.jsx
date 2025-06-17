@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 export default function Component() {
@@ -8,7 +7,6 @@ export default function Component() {
     <div className="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-md">
       <h2 className="text-3xl font-bold mb-6 text-center">YANGIN RAPORU</h2>
 
-      {/* Proje Bilgileri */}
       <div className="mb-6">
         <h3 className="text-xl font-semibold mb-2">Bina Bilgileri</h3>
         <div className="grid grid-cols-2 gap-4">
@@ -35,14 +33,12 @@ export default function Component() {
         </div>
       </div>
 
-      {/* Görsel Yükle */}
       <div className="mb-6">
         <h3 className="text-xl font-semibold mb-2">Görsel Yükle</h3>
         <input type="file" className="mb-2" />
         <input type="text" className="w-full border rounded p-2" placeholder="Kısa açıklama *" />
       </div>
 
-      {/* Sistem Seçimi */}
       <div className="mb-6">
         <label className="block text-sm font-medium mb-1">İlgili Sistem</label>
         <select className="w-full border rounded p-2">
@@ -53,7 +49,6 @@ export default function Component() {
         </select>
       </div>
 
-      {/* Referans Doküman Yükleme */}
       <div className="mb-6">
         <h3 className="text-xl font-semibold mb-2">Referans Dokümanlar</h3>
         <div className="grid grid-cols-2 gap-4">
@@ -68,7 +63,6 @@ export default function Component() {
         </div>
       </div>
 
-      {/* AI Sağlayıcı Seçimi */}
       <div className="mb-6">
         <h3 className="text-xl font-semibold mb-2">AI Sağlayıcı Seçimi</h3>
         <select
@@ -88,17 +82,10 @@ export default function Component() {
         )}
       </div>
 
-      {/* Aksiyon Butonları */}
       <div className="flex flex-col gap-4">
-        <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-          AI Yorumunu Getir
-        </button>
-        <button className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
-          Projenin Raporunu Oluştur
-        </button>
-        <button className="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-800">
-          Projeyi Kaydet
-        </button>
+        <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">AI Yorumunu Getir</button>
+        <button className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Projenin Raporunu Oluştur</button>
+        <button className="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-800">Projeyi Kaydet</button>
       </div>
     </div>
   );
